@@ -9,7 +9,7 @@ const [state,dispatch] = useReducer(counterReducer,initialState)
       <span id='counter'>{state}</span>
        <div>
           <button id="increment-btn" onClick={()=>dispatch({type:'INCREMENT'}) >incremrnt</button>
-          <button id="decrement-btn" onClick={()=>dispatch({type:'DECREMENT'}) >incremrnt</button>
+          <button id="decrement-btn" onClick={()=>dispatch({type:'DECREMENT'}) >decrement</button>
       </div>
     </div>
   )
